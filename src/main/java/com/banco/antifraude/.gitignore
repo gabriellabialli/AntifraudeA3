@@ -1,0 +1,48 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+release-versions.properties
+*.mvn
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.iml
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/ # Opcional: Se você não quiser compartilhar configurações específicas do VS Code
+out/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.*
+
+# Specific to Spring Boot
+/build/
+/src/main/resources/application*.yml
+/src/main/resources/application*.properties
+# Descomente a linha abaixo SE VOCÊ NÃO QUISER COMPARTILHAR SUAS CREDENCIAIS DO BANCO DE DADOS
+# /src/main/resources/application.properties
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
